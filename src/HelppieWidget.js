@@ -13,7 +13,7 @@ class HelppieWidget extends Component {
 			const n=t.createElement("script"),
 			c=t.getElementsByTagName("script")[0];
 			n.type="application/javascript";
-			n.src=`http://localhost:3000/widget.js?id=${p.widgetId}`;
+			n.src=`https://helppie.me/widget.js?id=${p.widgetId}`;
 			n.async=!0;
 			c.parentNode.insertBefore(n,c);
 		})(window,document,this.props);
